@@ -1,0 +1,59 @@
+h1{
+  text-align: center;
+  color: orange;
+}
+.main {
+   display: flex;
+   justify-content: center;
+   box-sizing: border-box;
+}
+h4,h5{
+  text-align: center;
+}
+img{
+  width: 100px;
+  height: 100px;
+  align: center;
+}
+@media (min-width:600px){
+  .main{
+    width: 600px;
+    margin: auto;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .one,.two,.three{
+  border: 1px solid #000;
+  width: 33.3%;
+  /*text-align: center;*/
+
+}
+}
+@media (min-width:800px) {
+  .main{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    border:1px solid #000;
+    justify-content: center;
+  }
+  .one,.two{
+    width: 50%;
+    /*text-align: center;*/
+  }
+  .three{
+    width: 50%;
+    align:center;
+    /*text-align: center;*/
+  }
+
+}
+@media (max-width: 600px){
+  .main{
+    width: 600px;
+    display: flex;
+    border:1px solid #000;
+  }
+  
+
+}
